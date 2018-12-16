@@ -9,26 +9,53 @@
 	<div class="container">
 		<h1> Indicadores Económicos</h1>
 		<div id="indicador">
-			<input class="btn btn-default" id="submit" value="Submit">
+			
 
 			<table class="table table-triped">
 				<tr>
 					<td>Dólar :</td>
-					<td id="dolar"></td>	
+					<td id="dolar" colspan="2"></td>	
 				</tr>
 				<tr>
 					<td>Euro :</td>
-					<td id="euro"></td>
+					<td id="euro" colspan="2"></td>
 				</tr>
 				<tr>
 					<td>UF :</td>
-					<td id="uf"></td>
+					<td id="uf" colspan="2"></td>
 				</tr>
 				<tr>
 					<td> UTM :</td>
-					<td id="utm"></td>
+					<td id="utm" colspan="2"></td>
+				</tr>
+				<tr>
+					<td colspan="3"><h2>Convertidor de unidades</h2></td>
+				</tr>
+				<tr>
+					<td>Ingrese el valor en pesos chilenos $ </td>
+					<td><input type="number" id="ing_pesos"></td>
+					<td><input class="btn btn-default" type="button" id="convertir_peso" value="Convertir"></td>
+				</tr>
+				<tr>
+					<td>Dólar :</td>
+					<td id="conv_dolar" colspan="2"></td>	
+				</tr>
+				<tr>
+					<td>Euro :</td>
+					<td id="conv_euro" colspan="2"></td>
+				</tr>
+				<tr>
+					<td>Ingrese el valor en dolares US$ </td>
+					<td><input type="number" id="ing_dolar"></td>
+					<td><input class="btn btn-default" type="button" id="convertir_dolar" value="Convertir"></td>
+				</tr>
+				<tr>
+					<td>Peso Chileno :</td>
+					<td id="conv_peso" colspan="2"></td>	
 				</tr>
 			</table>
+
+			
 		</div>
 		
 
